@@ -7,7 +7,7 @@ class Mahasiswa
 public $nim;
 public $ipk;
 
-	function munculkanNama()
+	public static function  munculkanNama()
 	{
 		echo "Helo Saya Sisfo";
 	}
