@@ -21,7 +21,6 @@ $v= new \src\Mahasiswa;
 $v->test();
 
 echo "<br><br>";
-$v= new \model\Mahasiswa;
-$v->test();
+\model\Mahasiswa::munculkanNama();
 
  ?>
