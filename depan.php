@@ -15,7 +15,7 @@ $v= new \src\View;
 $v->render();
 
 echo "<br><br>";
-$v= new \Mahasiswa;
+$v= new \src\Mahasiswa;
 $v->test();
 
  ?>
