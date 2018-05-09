@@ -2,7 +2,7 @@
 
 namespace model;
 
-class Mahasiswa
+class Mahasiswa extends Model
 {
 public $nim;
 public $ipk;
