@@ -1,6 +1,6 @@
 <?php 
 
-namespace src;
+namespace model;
 
 class Model
 {
@@ -15,7 +15,7 @@ public $ipk;
 
 	function munculkanNama()
 	{
-		echo "munculkanNama";
+		echo "Helo Saya Sisfo";
 	}
 }
  ?>
