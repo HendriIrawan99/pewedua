@@ -1,7 +1,9 @@
 <?php
 
-require_once 'app/View.php';
-require_once 'src/View.php';
+spl_autoload_register(function($class) {
+    require_once str_replace('\\', DIRECTORY_SEPARATOR, $class) . '.php';
+});
+
 
 use app\View;
 
@@ -12,5 +14,8 @@ echo "<br><br>";
 $v= new \src\View;
 $v->render();
 
+echo "<br><br>";
+$v= new \Mahasiswa;
+$v->test();
 
  ?>
