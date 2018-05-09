@@ -1,5 +1,9 @@
 <?php 
 
+namespace src;
+
+
+
 class Mahasiswa
 {
 	
@@ -7,6 +11,7 @@ class Mahasiswa
 	{
 		echo "Ini Adalah Mahasiswa";
 	}
+
 }
 
 
